@@ -26,7 +26,7 @@ $(function () {
 function getUserInfo() {
 	$.ajax({
 		method: 'GET',
-		url: 'my/userinfo',
+		url: '/my/userinfo',
 		// headers就是请求头配置对象
 		// headers: {
 		// 	Authorization: localStorage.getItem('token') || '',

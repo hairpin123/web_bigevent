@@ -38,7 +38,7 @@ $(function () {
 		// 2.发起Ajax的POST请求
 		$.ajax({
 			method: 'POST',
-			url: 'api/reguser',
+			url: '/api/reguser',
 			// 快速获取表单中的数据
 			data: $(this).serialize(),
 			success: function (res) {
@@ -60,7 +60,7 @@ $(function () {
 		// 2.发起Ajax的POST请求
 		$.ajax({
 			method: 'POST',
-			url: 'api/login',
+			url: '/api/login',
 			data: $(this).serialize(),
 			success: function (res) {
 				if (res.status !== 0) {

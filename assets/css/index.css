@@ -31,6 +31,9 @@ a {
 	font-size: 12px;
 	user-select: none;
 }
+.layui-side-scroll .userinfo {
+	border-bottom: 1px solid #282b33;
+}
 
 .layui-nav-img {
 	width: 40px;
